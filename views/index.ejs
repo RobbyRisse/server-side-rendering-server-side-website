@@ -1,0 +1,18 @@
+<%- include('./partials/head') %>
+<%
+console.log(sdgs)
+%>
+<section class="container">
+    <% sdgs.forEach(sdg => { %>
+      <article style="--color:<%= sdg.color %>"> 
+        <section>
+          <h2>Goal <%= sdg.number %> <span><%=sdg.title %></span></h2>
+          <p><%= sdg.description %></p>
+        </section>
+        <section>
+          <img src="https://fdnd-agency.directus.app/assets/<%=sdg.icon %>" alt="">
+        </section>
+      </article>
+    <% }) %>
+</section> 
+<%- include('./partials/foot') %>

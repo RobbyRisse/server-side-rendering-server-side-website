@@ -28,6 +28,10 @@
 
 
 ## Bronnen
+ endpoints:
+- https://fdnd-agency.directus.app/items/hf_companies voor bedrijven
+- https://fdnd-agency.directus.app/items/hf_stakeholders voor stakeholders
+- https://fdnd-agency.directus.app/items/hf_sdgs voor SDGs
 
 ## Licentie
 
